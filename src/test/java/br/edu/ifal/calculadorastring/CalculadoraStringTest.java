@@ -18,7 +18,7 @@ public class CalculadoraStringTest {
 	@Test
 	public void AdicionarNumerosStrings() {
 		assertThat(calculadora.adicionar(""), equalTo("0"));
-		assertThat(calculadora.adicionar("1,2"), equalTo("4"));
+		assertThat(calculadora.adicionar("1,2"), equalTo("3"));
 		assertThat(calculadora.adicionar("1,2,3"), equalTo("6"));
 		assertThat(calculadora.adicionar("-1,-2,3"), equalTo("0"));
 		assertThat(calculadora.adicionar("1,-2,3"), equalTo("2"));
