@@ -1,4 +1,4 @@
-package br.edu.ifal.binaria;
+package br.edu.ifal.calculadorastring;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -7,7 +7,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class BinariaApplicationTests {
+public class DevOpsCircleCiApplicationTests {
 
 	@Test
 	public void contextLoads() {
